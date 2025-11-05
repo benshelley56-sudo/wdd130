@@ -1,0 +1,208 @@
+
+/* FONTS AND COLORS
+ trebuchet MS(sans-serif) - Paragraph
+	backup: Verdana
+
+Aboreto - header
+	Backup: Courier New  */
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@keyframes bg-rotate {
+  0%   { background-color: #276FBF; }
+  33%  { background-color: #E9C46A; }
+  66%  { background-color: #1C1D21; } 
+  100% { background-color: #E76F51; } 
+}
+
+header {
+    width: 100%;
+    animation: bg-rotate 20s infinite linear;
+    border: 5px solid #1C1D21;    
+
+
+}
+main {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+footer {
+    max-width: 1500px;
+    margin: 0 auto;
+    background: #2A9D8F;
+    height: 700px;
+    box-shadow: 2px 2px 2px 2px #1C1D21;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+
+    
+}
+
+.page-header {
+    width: 400px;
+    height: 250px;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    height: 200px;
+    border-radius: 40%;
+    margin: 30px auto;
+    margin-right: 200px;
+    z-index: 1;
+    left: calc(50% - 300px);  
+    box-shadow: 0 0 40px #faffc9;  
+
+}
+.logo:hover {
+    border: 5px solid #1C1D21;  
+
+}
+
+nav {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 1000px;
+    column-gap: 30px;
+    row-gap: 20px;
+}
+
+li {
+    justify-content: left;
+}
+
+
+.knight {
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    z-index: 0;
+    left: 50%;
+    justify-content: center;
+    box-shadow: 0 0 5px #1C1D21;
+
+}
+/* MAIN EDITS */
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover {
+    background-color: #276FBF;
+    background-size: cover;
+    background-position: center;
+    font-style: #000000;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+#wwr-title {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #5ba3f6;
+    border: 5px solid #1C1D21;  
+    border-radius: 20px 20px 20px 20px;
+}
+#home-title {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #5ba3f6;
+    border: 5px solid #1C1D21;
+    border-radius: 20px 20px 20px 20px;  
+}
+#ice-title {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #5ba3f6;
+    border: 5px solid #1C1D21;
+    border-radius: 20px 20px 20px 20px;  
+}
+#me-title {
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #5ba3f6;
+    border: 5px solid #1C1D21;  
+    border-radius: 20px 20px 20px 20px;
+}
+
+h1, h2 {
+    font-family: var(Aboreto);
+}
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 20px;
+}
+
+/* FOOTER EDITS */
+#fav-things {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+#fname {
+    margin: 0 auto;
+}
+
+#fav-things label {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+#fav-things input[type="text"] {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  width: 250px;
+  max-width: 90%;
+}
+
+#fav-things .submit-button {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #a2a2a2;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.01s ease;
+}
+
+#fav-things .submit-button:hover {
+  background-color: #bbbbbb;
+}
+
+#aboutMe-table table {
+  border-collapse: collapse;
+  background-color: #bbbbbb;
+  width: 80%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+#aboutMe-table th,
+#aboutMe-table td {
+  border: 1px solid #fff;
+  padding: 12px;
+  font-size: 20px;
+}
+
+#aboutMe-table th {
+  background-color: #61dafb;
+  color: #000;
+  font-size: 25px;
+}
+
+
+#aboutMe-table tr:nth-child(even) td {
+  background-color: rgba(255, 255, 255, 0.1);
+}

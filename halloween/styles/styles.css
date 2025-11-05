@@ -1,0 +1,145 @@
+
+
+@import url(https://fonts.googleapis.com/css2?family=Creepster&family=Nosifer&family=Halloween+Spider&display=swap);
+
+body {
+    background-color: rgb(67, 64, 60);
+}
+
+
+header {
+    background: linear-gradient(135deg, #1a0000, #330000, #000);
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 0 30px #ff7518;
+    border-bottom: 3px solid #ff7518;
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* fonts recomemnded by chatgpt */
+nav li {
+    font-family: 'Nosifer', cursive;
+    font-size: 1.5rem;
+    color: #ff7518;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+/* Glowing hover effect */
+nav li:hover {
+    color: #000000;
+    text-shadow: 0 0 10px #ff7518, 0 0 20px #ff7518, 0 0 40px #ff7518;
+}
+
+/* lines appearing under the titles */
+nav li::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 4px;
+    background: #ff0000;
+    transition: width 0.3s ease;
+}
+
+nav li:hover::after {
+    width: 60%;
+}
+
+/* this is my own code  */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    box-shadow: 0 0 40px #410e73;
+
+}
+
+h1 {
+    color: rgb(189, 38, 38); 
+    font-family: "Nosifer", "Creepster";
+    background-color: black;
+    text-align: center;
+    font-size: 70px;
+
+}
+h2 {
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: #000000; 
+    padding: 10px;
+    font-family: "Creepster", cursive;
+}
+
+h2:hover {
+    background-color: #000000;
+    content: "BOO!!";
+    color: #ff0000;
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+    transform: scale(2);
+}
+h2:hover::before {
+    background-color: #000000;
+    content: "BOO!!";
+    color: #ff0000;
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+    transform: scale(2);
+}
+h2:hover::after {
+    background-color: #000000;
+    content: "BOO!!";
+    color: #ff0000;
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+    transform: scale(2);
+
+}
+
+h2, p {
+    background-color: #ff7518;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    text-align: center;
+    color: #000000; 
+    margin-right: 300px;
+    margin-left: 300px;
+    padding-bottom: 2em;
+    font-size: 20px;
+    font-family: 'Halloween Spider', cursive;
+}
+
+footer {
+    font-size: 25px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    padding-top: 1em;
+}
+
+footer:hover {
+    transform: scale(1.3);
+    color: rgb(160, 160, 160);
+}

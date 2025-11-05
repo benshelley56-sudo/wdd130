@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box {
+            max-width: 1400px;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: end;
+            gap: 1em;
+        }
+        #box image {
+            border-radius: 50%;
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            object-position: 50% 10%;
+        }
+        #box h1 {
+            flex: 1 1 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="box">
+        <h1>Flex</h1>
+        <img src="images/russell_nelson.pgn" alt="">
+        <img src="russell_nelson.png" alt="">
+        <img src="russell_nelson.png" alt="">
+
+    </div>
+</body>
+</html>
