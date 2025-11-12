@@ -88,8 +88,27 @@ li {
     box-shadow: 0 0 5px #1C1D21;
 
 }
+/* ice page */
+#ice-assignments{
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+#prophet-cards ,#image-gallery, #country-flags, #positioning, #apostle-spotlight, #scripture-signup {
+  background-color: #E9C46A;
+  border: 5px solid #1C1D21;
+  border-radius: 20px 20px 20px 20px;
+  height: 350px;
+}
+#ice-assignments a:hover {
+  background-color: #ecd18d;
+  
+}
+/* ice page ^ */
+
 /* MAIN EDITS */
 
+/* main page */
 a {
     text-decoration: none;
     color: black;
@@ -103,7 +122,6 @@ a:hover {
     border-radius: 20px 20px 20px 20px;
 
 }
-
 #wwr-title {
     display: grid;
     grid-template-columns: 1fr 1fr;
