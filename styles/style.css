@@ -100,21 +100,30 @@ li {
   border-radius: 20px 20px 20px 20px;
   height: 350px;
 }
-#ice-assignments a:hover {
-  background-color: #ecd18d;
-  
+#ice-assignments a {
+  text-decoration: none;
+  color: black;
+
 }
+#ice-assignments a:hover {
+  background-color: #f2d17d;
+  background-size: cover;
+  background-position: center;
+  font-style: #000000;
+  border-radius: 20px 20px 20px 20px;
+}
+
 /* ice page ^ */
 
 /* MAIN EDITS */
 
 /* main page */
-a {
+.home-nav a {
     text-decoration: none;
     color: black;
     
 }
-a:hover {
+.home-nav a:hover {
     background-color: #276FBF;
     background-size: cover;
     background-position: center;
