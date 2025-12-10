@@ -137,20 +137,26 @@ li {
     background-color: #5ba3f6;
     border: 5px solid #1C1D21;  
     border-radius: 20px 20px 20px 20px;
+      align-items: center;
+
 }
 #home-title {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #5ba3f6;
     border: 5px solid #1C1D21;
-    border-radius: 20px 20px 20px 20px;  
+    border-radius: 20px 20px 20px 20px; 
+      align-items: center;
+ 
 }
 #ice-title {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #5ba3f6;
     border: 5px solid #1C1D21;
-    border-radius: 20px 20px 20px 20px;  
+    border-radius: 20px 20px 20px 20px;
+      align-items: center;
+  
 }
 #me-title {
     height: 200px;
@@ -159,7 +165,19 @@ li {
     background-color: #5ba3f6;
     border: 5px solid #1C1D21;  
     border-radius: 20px 20px 20px 20px;
+      align-items: center;
+
 }
+#client-report {
+  height: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #5ba3f6;
+  border: 5px solid #1C1D21;
+  border-radius: 20px 20px 20px 20px; 
+  align-items: center;
+}
+
 
 h1, h2 {
     font-family: var(Aboreto);
